@@ -1,0 +1,104 @@
+/* Editando as seções*/
+#sobre,
+#habilidades,
+#portfolio,
+#contato {
+    padding: 10rem 0;
+}
+
+/* Hero Section*/
+.bgimage {
+    height: 100vh;
+    position: relative;
+
+    background: url("images/predio.jpg");
+    background-size: cover;
+}
+.heroTitle {
+    font-size: 4.5rem;
+}
+.heroDesc {
+    font-size: 2rem;
+}
+.heroText {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.aboutImage {
+    width: 100%;
+}
+
+.servicesText.card {
+    height: 200px;
+    cursor: pointer;
+    padding: 0 2rem;
+}
+.servicesIcon {
+    height: 36px;
+    text-align: center;
+    width: 100%;
+}
+.cardTitle {
+    text-align: center;
+}
+.card:hover .servicesIcon{
+    color: #1c1c1c;
+}
+.servicesText:hover{
+    border: 1px solid #1c1c1c;
+}
+
+/* Estização do cabeçalho */
+.navbar{
+   background-color: #1c1c1c;
+}
+.navbar a{
+    color: white;
+    padding: 0.5rem;
+}
+.navbar a:hover{
+    background-color: #ddd;
+    color: #000000;
+    border-radius: 4px;
+}
+
+/* Icones seção contato*/
+.contactIcon {
+    font-size: 2.5rem;
+    color: #4f4f4f;
+}
+
+/* footer */
+footer {   
+    background-color: #4f4f4f;
+}
+.footerIcon {
+    font-size: 2rem;
+    color: white;
+}
+.footerIcon:hover{
+    color: #c4c4c4;
+}
+.footerDev {
+    background-color: #1c1c1c;
+}
+
+/* Efeito de GlassMorphismo*/
+.glass{
+   position: absolute;
+   height: 40%;
+
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+
+   background: rgba(8, 7, 7, 0.48);
+   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+   backdrop-filter: blur(11.3px);
+   -webkit-backdrop-filter: blur(11.3px);
+}

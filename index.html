@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Guilherme</title>
+    
+    <!-- Arquivo CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Arquivo JavaScript -->
+    <script src="script.js"></script>
+
+    <!-- Bootstrap -->
+    <link 
+       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" 
+       rel="stylesheet" 
+       integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" 
+       crossorigin="anonymous"
+    />
+
+    <script 
+       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" 
+       integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" 
+       crossorigin="anonymous">
+    </script>
+    
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/ef32322506.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <!-- Menu fixado -->
+    <nav class="navbar navbar-expand-lg fixed-top navbarScroll">
+        <div class="container">
+            <a class="navbar-brand" href="#">Guilherme</a>
+            <button
+                class="navbar-toggler"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Navegação do toggle"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+               <ul class="navbar-nav ms-auto">
+                   <li class="nav-item active">
+                      <a class="nav-link" href="#inicio">Início</a>
+                   </li>
+                   <li class="nav-item">
+                    <a class="nav-link" href="#sobre">Sobre</a>
+                 </li>
+                 <li class="nav-item">
+                    <a class="nav-link" href="#habilidades">Habilidades</a>
+                 </li>
+                 <li class="nav-item">
+                    <a class="nav-link" href="#contato">Contato</a>
+                 </li>
+                 <li class="nav-item">
+                    <a class="nav-link" href="#portfolio">Portfólio</a>
+                 </li>
+               </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="bgimage" id="inicio">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="glass">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 heroText">
+                        <h1 class="heroTitle">Olá, me chamo Guilherme</h1>
+                        <p class="heroDesc">Estudante de Front-End</p>
+                    </div>
+                </div>  
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="sobre">
+        <div class="container mt-4 pt-4">
+            <h2 class="text-center">Sobre Mim</h2>
+            <div class="row mt-4">
+                <!-- Imagem sobre mim -->
+                <div class="col-lg-4">
+                    <img src="images/perfil.png" alt="Sobre Mim" class="aboutImage" />
+                </div>
+
+                <!-- Informações sobre mim -->
+                <div class="col-lg-8">
+                    <p>
+                        Meu nome é Guilherme, sou Técnico em Informática, trabalhei por um período 
+                        prestando suporte de informática no Laboratório de Informática da E.M.E.F. João Antônio Satte
+                        auxiliando os Professores e as suas Turmas na utilização dos computadores e seus softwares educacionais.
+                        Atualmente trabalho como autônomo realizando serviços de manutenção de computadores e notebooks.
+                        Conheci o Projeto Mais pra Ti no final de 2021, participei de alguns cursos para me aperfeiçoar mais na área de 
+                        programação e descobri que tenho muito mais afinidade com a área de Desenvolvimento Web. Meu objetivo é 
+                        trabalhar na área de Desenvolvimento Front-End. 
+                    </p>
+                    <div class="row mt-3">
+                        <div class="col-md-6">
+                            <ul>
+                                <li>Nome: Guilherme Ferreira Lourenço</li>
+                                <li>Idade: 30 anos</li>
+                                <li>Ocupação: Estudante de Desenvolvimento Front-End</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!--Parágrafo e infos-->
+                    <div class="row mt-3">
+                        <p>
+                           No Curso de Desenvolvimento Front-End do Zero ao Primeiro Site, desenvovi junto
+                           a minha turma e ao nosso Professor alguns projetos os quais temos algumas páginas
+                           Web com layouts e aplicações bem organizadas de acordo com seus temas e também desenvolvemos 
+                           uma versão do Jogo do Mário bem divertida. Em nossas atividades que valeram nota, muitas dessas 
+                           aplicações foram editadas por cada um de nós alunos individualmente, onde adicionamos a elas funções
+                           e elementos visuais.   
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Service or Skills Section-->
+    <section id="habilidades">
+        <div class="container">
+            <h2 class="text-center">Habilidades</h2>
+            <!-- Uma linha -->
+            <div class="row">
+                <!-- Uma coluna -->
+                <div class="col-lg-6 mt-4">
+                    <div class="card servicesText">
+                        <div class="cardBody">
+                            <i class="fa-solid fa-check servicesIcon"></i>
+                            <h3 class="cardTitle mt-3">Manutenção de Computadores</h3>
+                            <p class="cardText mt-3">
+                                Manutenção e instalação de Sistemas Operacionais,
+                                instalação e configuração de softwares e trocas de peças de Computadores e Notebooks.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+    
+        
+                <!-- Outra coluna -->
+                <div class="col-lg-6 mt-4">
+                    <div class="card servicesText">
+                        <div class="cardBody">
+                            <i class="fa-solid fa-check servicesIcon"></i>
+                            <h3 class="cardTitle mt-3">Desenvolvimento de sites</h3>
+                            <p class="cardText mt-3">
+                                Desenvolvimento de páginas e aplicações web com layouts organizados e personalizados. 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!--Contact Section-->
+    <section id="contato">
+        <d class="container mt-3 mb-3 contactContent">
+            <h2 class="text-center">Contate Me</h2>
+
+            <div class="row mt-4">
+                <div class="col-lg-6">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13820.588919953816!2d-51.1771256023146!3d-30.003928566820747!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x951977693b5300eb%3A0xd5a39b1144add742!2sJardim%20S%C3%A3o%20Pedro%2C%20Porto%20Alegre%20-%20RS!5e0!3m2!1spt-BR!2sbr!4v1690766287357!5m2!1spt-BR!2sbr" 
+                    width="600" 
+                    height="550" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade"
+                    ></iframe>            
+                </div>
+                <div class="col-lg-6">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="card servicesText">
+                                <div class="cardBody">
+                                    <i class="fa-solid fa-mobile contactIcon"></i>
+                                    <h3>Telefone</h3>
+                                    <p>(51) 984430071</p>
+                                </div>
+                            </div>
+                        </div>                 
+                            <div class="col-lg-6">
+                               <div class="card servicesText">
+                                   <div class="cardBody">
+                                        <i class="fa-solid fa-envelope contactIcon"></i>
+                                        <h3>Email</h3>
+                                        <p>gf.lourenc@gmail.com</p>
+                                    </div>
+                                </div>
+                           </div>
+                      </div>
+                      <div class="row mt-4">
+                        <div class="col-lg-3">
+                            <a href="https://github.com/GuilhermeFLourenco" target="_blank">
+                                <i class="fa-brands fa-github-alt contactIcon"></i>
+                            </a>
+                        </div>
+                        <div class="col-lg-3">
+                            <a href="https://www.linkedin.com/in/guilherme-louren%C3%A7o-62a27611a/" target="_blank">
+                                <i class="fa-brands fa-linkedin contactIcon"></i>
+                            </a>
+                        </div>
+                        <div class="col-lg-3">
+                            <a href="https://www.facebook.com/guilherme.lourenco.lou" target="_blank">
+                                <i class="fa-brands fa-facebook contactIcon"></i>
+                            </a>
+                        </div>
+                        <div class="col-lg-3">
+                            <a href="https://www.instagram.com/guilhermeflourenco/" target="_blank">
+                                <i class="fa-brands fa-square-instagram contactIcon"></i>
+                            </a>
+                        </div>
+                      </div>
+                 </div>
+             </div>
+        </div>     
+    </section>
+    
+    <!-- portfolio section-->
+    <section id="portfolio">
+        <div class="container mt-3">
+            <h2 class="text-center mb-3">Portfólio</h2>
+
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="card">
+                        <img class="card-img-top" 
+                        src="portfolio/thumbs/estanteThumb.png" 
+                        alt="Card Estante"
+                        style="width: 100%"
+                        />
+                        <div class="cardBody">
+                            <h3 class="cardTitle">Projeto Estante de Livros</h3>
+                            <p class="cardText text-center">
+                                Primeiro projeto com  HTML e CSS desenvolvido no curso. Neste projeto
+                                dei meus primeiros passos com desenvolvimento web e 
+                                trabalhei com divisões, imagens, listas ordenadas e tabelas. Temos neste projeto imagens,
+                                sinopses e informações de alguns livros.
+                            </p>
+                            <div class="text-center mb-3">
+                                <a href="portfolio/Estante/estante.html" target="_blank"
+                                >Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="card">
+                        <img class="card-img-top" 
+                        src="portfolio/thumbs/locadoraThumb.png" 
+                        alt="Card Locadora"
+                        style="width: 100%"
+                        />
+                        <div class="cardBody">
+                            <h3 class="cardTitle">Projeto Locadora 2000</h3>
+                            <p class="cardText text-center">
+                                Neste projeto trabalhei com HTML, CSS, listas, tabelas, programação em JavaScript e um formulário de cadastro
+                                a ser preenchido para adicionar mais um cadastro a lista de filmes cadastrados.
+                            </p>
+                            <div class="text-center mb-3">
+                                <a href="portfolio/Locadora/index.html" target="_blank"
+                                >Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row mt-4">
+                <div class="col-lg-6">
+                    <div class="card">
+                        <img class="card-img-top" 
+                        src="portfolio/thumbs/marioThumb.png" 
+                        alt="Card Mario"
+                        style="width: 100%"
+                        />
+                        <div class="cardBody">
+                            <h3 class="cardTitle">Projeto Mario Web</h3>
+                            <p class="cardText text-center">
+                                Neste projeto trabalhei com HTML, CSS, imagens e programação em JavaScript onde criei junto 
+                                ao Professor Henrique e a minha Turma uma versão bem divertida do Jogo do Mário.
+                            </p>
+                            <div class="text-center mb-3">
+                                <a href="portfolio/Mario/index.html" target="_blank"
+                                >Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="card">
+                        <img class="card-img-top" 
+                        src="portfolio/thumbs/cartaoThumb.png" 
+                        alt="Card Locadora"
+                        style="width: 100%"
+                        />
+                        <div class="cardBody">
+                            <h3 class="cardTitle">Projeto Cartão Virtual</h3>
+                            <p class="cardText text-center">
+                                Neste projeto utilizamos HTML, CSS e imagens. Temos aqui um Cartão Virtual
+                                onde ao abrir a página temos uma mensagem nos dando boas-vindas e ao deslizar 
+                                o cursor do mouse sobre a mensagem, o cartão vira para outro lado onde está meu nome, ocupação
+                                e imagens com links de minhas redes sociais e github.
+                            </p>
+                            <div class="text-center mb-3">
+                                <a href="portfolio/Cartao/index.html" target="_blank"
+                                >Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center text-white">
+        <div class="container p-4 pb-0">
+            <div class="row mt-4 mb-4">
+                <div class="col-lg-3">
+                    <a href="https://github.com/GuilhermeFLourenco" target="_blank">
+                        <i class="fa-brands fa-github-alt footerIcon"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3">
+                    <a href="https://www.linkedin.com/in/guilherme-louren%C3%A7o-62a27611a/" target="_blank">
+                        <i class="fa-brands fa-linkedin footerIcon"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3">
+                    <a href="https://www.facebook.com/guilherme.lourenco.lou" target="_blank">
+                        <i class="fa-brands fa-facebook footerIcon"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3">
+                    <a href="https://www.instagram.com/guilhermeflourenco/" target="_blank">
+                        <i class="fa-brands fa-square-instagram footerIcon"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+          <div class="text-center p-3 footerDev">
+            <p>Desenvolvido por Guilherme Ferreira Lourenço</p>
+          </div>
+    </footer>
+</body>
+</html>

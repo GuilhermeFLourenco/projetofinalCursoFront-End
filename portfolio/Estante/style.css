@@ -1,0 +1,120 @@
+html {
+   /* Suavização do scroll */
+   scroll-behavior: smooth;
+}
+/* Corpo da aplicação */
+body {
+    /* background */
+   background-color: #f2e7dc;
+
+   /* Texto */
+   color: #0d0d0d;
+   text-align: justify;
+
+   /* Alinhamento e tamanho */
+   margin: auto; 
+   /*width: 85%;*/
+}
+
+/* Seção dos livros */
+section {
+  /* Espaçamento dentro da seção */
+   padding: 64px 256px;
+}
+
+/* Tabela */
+table {
+   /* Largura */
+   width: 100%;
+} 
+td {
+   /* background */
+   background-color: #A9D9D0;
+}
+td,th{
+   /* borda no formato shorthand */
+   border: black solid 1px;
+   border-radius: 4px;
+   /* Alinhamento do texto */
+   text-align: center;
+}
+tr {
+   /* background */
+   background-color: #038C7F;
+} 
+
+/* Título, Texto e Parágrafos */
+p {
+   text-align: justify;
+   text-indent: 50px;
+}
+
+h1, h2, h3 {
+   text-align: center;
+}
+
+h3 {
+   color: #000;
+}
+/* Links */
+a:link {
+  color: #f2e7dc; /* Link Normal */
+}
+a:visited {
+   color: #95bfb8; /* Link visitado */
+}
+a:hover {
+   color: #025454; /* Mouse sobre o Link */
+}
+a:active {
+   color: #0d0d0d; /* Link selecionado */
+}
+
+/* Imagem */
+ img {
+    width: 300px;
+    display: block;
+    margin: auto;
+    border-radius: 50px;
+ } 
+
+ /* Classes e IDs */
+ .bookTitle {
+    background-color: #a9d9d0;
+    color: #027373;
+    text-align: center;
+ }
+
+ #sectionHP, #sectionPJ, #sectionPAE {
+    background-color: #A9D9D0;
+ }
+
+ #header {
+    background-color: #038c7f;
+    color: #f2e7dc;
+    padding: 20px;
+    margin-bottom: 0px;
+ }
+ #yourLibrary {
+    text-indent: 0px;
+    text-align: center;
+ }
+ #sumary {
+    background-color: #038c7f;
+    color: #f2e7dc;
+    padding: 20px;
+    margin-bottom: 50px;
+    border-radius: 0 0 50px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+
+ /* Roda pé */
+ footer {
+    background-color: #038c7f;
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+ }
